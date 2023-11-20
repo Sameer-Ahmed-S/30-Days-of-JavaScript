@@ -25,4 +25,4 @@ function string_chop(str, size) {
 
 console.log(string_chop('Scaler'));
 console.log(string_chop('Scaler', 2));
-console.log(string_chop('Scaler', 0));
+console.log(string_chop('Scaler', 4));
