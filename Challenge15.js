@@ -15,7 +15,7 @@ console.log(string_chop('Scaler',2));
 function string_chop(str, size) {
     let arr = [];
     if(size === undefined || size === 0)
-        size = str.length
+        size = str.length;
     for (let i = 0; i < str.length; i += size) {
         arr.push(str.slice(i, i + size));
     }
